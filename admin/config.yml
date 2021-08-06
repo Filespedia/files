@@ -3,8 +3,7 @@ backend:
   branch: master
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
-collections:
-  - label: "Categories"
+collections:  - label: "Categories"
     name: "categories"
     folder: "category"
     create: true
@@ -23,8 +22,7 @@ collections:
         widget: "string"
       - label: "Slug"
         name: "slug"
-        widget: "hidden"
-        default: "{{slug}}"
+        widget: "string"
       - label: "Description"
         name: "description"
         widget: "string"
@@ -484,7 +482,7 @@ collections:
                     required: false
       - label: "Advanced"
         name: "advanced"
-        file: "src/yml/advanced.yml"
+        file: "config.yml"
         fields:
           - label: "Base URL"
             name: "baseurl"
