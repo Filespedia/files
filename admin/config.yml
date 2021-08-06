@@ -3,7 +3,7 @@ backend:
   branch: master
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
-collections:  - label: "Categories"
+collections:
   - label: "Categories"
     name: "categories"
     folder: "category"
