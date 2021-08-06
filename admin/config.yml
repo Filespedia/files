@@ -191,7 +191,7 @@ collections:  - label: "Categories"
     files:
       - label: "Site"
         name: "site"
-        file: "src/yml/site.yml"
+        file: "_config.yml"
         fields:
           - label: "Name"
             name: "name"
@@ -482,7 +482,7 @@ collections:  - label: "Categories"
                     required: false
       - label: "Advanced"
         name: "advanced"
-        file: "config.yml"
+        file: "advanced.yml"
         fields:
           - label: "Base URL"
             name: "baseurl"
